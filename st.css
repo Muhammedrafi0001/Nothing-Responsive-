@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Roboto:ital,wght@1,100&display=swap');
+@font-face {
+    font-family: dotted;
+    src: url(dotty/dotty/dotty.ttf);
+}
+html,body{
+    overflow-x: hidden;
+    
+}
+   
+
+header{   
+     font-family: 'Raleway Dots', cursive; 
+    
+}
+/* */
+.gh{
+     align-items: center;
+    padding-top:40px;
+    font-family: NType82 ;
+    
+}
+
+.des{
+   font-family: Noto Sans Mono;
+    
+}
+.wall{
+    width:8rem;
+  }
+ 
+  
+.center{
+    align-items: center;
+}
+.text-dark{
+    font-family: dotted;
+    font-size:80px;
+   
+    
+}
+.t3{
+    width:3rem;  
+}
+.text-center{
+    font-family: NType82;
+}
+.back{
+ background-color: floralwhite;
+}
+
+.footer-col{
+    width:25%;
+    
+   
+}
+.foo{
+     list-style: none; 
+   text-align: center;
+   font-family: dotted;
+   padding:2px;
+   
+}
+footer{
+      text-align: center;
+    padding:70px ;
+    color: rgb(16, 15, 15);
+    list-style:none;
+    background-color:#d6cbd3;
+    font-family: dotted;
+}
+@media(max-width:767px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom:30px;
+    }
+}
+
+
+
